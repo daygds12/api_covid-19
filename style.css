@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body {
-    background-color: #568D69;
+   
+   
+    background-image: url(https://www.paho.org/sites/default/files/card/2021-03/covid-19-virus-aqua-bk.jpg);
+    
 }
 
 h1 {
     font-family: "Roboto", sans-serif;
+    font-size: 48px;
     display: flex;
     justify-content: center;
     padding-top: 115px;
@@ -14,7 +18,7 @@ h1 {
 .pincipal {
     font-family: "Roboto", sans-serif;
     text-align: center;
-    padding-top: 5rem;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -23,13 +27,14 @@ h1 {
 
 div {
     border-radius: 15%;
-
+    padding: 20px;
 }
 
 .container1 {
     background-color: #27613B;
     height: 300px;
     width: 300px;
+    
 }
 
 .container2 {
@@ -40,5 +45,5 @@ div {
 
 .container3 {
     background-color: #0E8F3B;
+    height: 300px;
     width: 300px;
-}

@@ -1,7 +1,7 @@
 $.ajax({
-    url: "https://covid.mathdro.id/api",
+    url: "https://covid.mathdro.id/api/countries/brazil",
     success: (dados) => {
-        dadosRecebidos(dados)
+       dadosRecebidos(dados)
     }
 })
 // funcao de captura de resultados com jquery 
